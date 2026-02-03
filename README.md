@@ -29,7 +29,16 @@ Run:
 poetry shell
 ```
 
-### 6. Launch Jupyter Notebooks in VS Code
+### 6. Launch JupyterLab
+```
+poetry run jupyter lab
+```
+This will start the server and open JupyterLab in your browser at `http://localhost:8888`.
+
+### 7. Stop JupyterLab
+Press `Ctrl + C` in the terminal where the server is running, then confirm with `y`.
+
+### 8. (Alternative) Launch in VS Code
 - Open VS Code in this project folder.
 - Create or open a `.ipynb` notebook file.
 - Select the Python interpreter from your Poetry environment as the kernel.

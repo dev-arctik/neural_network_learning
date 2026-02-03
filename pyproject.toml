@@ -14,7 +14,8 @@ dependencies = [
     "matplotlib (>=3.10.5,<4.0.0)",
     "graphviz (>=0.21,<0.22)",
     "torch (>=2.8.0,<3.0.0)",
-    "scikit-learn (>=1.8.0,<2.0.0)"
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "jupyterlab (>=4.5.3,<5.0.0)"
 ]
 
 
